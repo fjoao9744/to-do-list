@@ -1,0 +1,14 @@
+
+
+body {
+    background: radial-gradient(circle at center, #6000E0, #00BEE0);
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+div {
+    background: linear-gradient(to bottom, #5C28A1, #8B892E);
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
