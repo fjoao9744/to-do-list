@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    font-family: "Oxanium", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
     box-sizing: border-box;
     padding: 0px;
@@ -6,6 +15,7 @@ body {
     justify-content: center;
     justify-items: center;
 }
+
 div {
     background: linear-gradient(to bottom, #5C28A1, #8B892E);
     width: 400px;
@@ -28,8 +38,12 @@ header {
 }
 header * {
     padding-left: 40px;
+    padding-right: 40px;
     padding-top: 5px;
     color: white;
     text-decoration: none;
     font-size: 30px;
+}
+header a:hover {
+    color: rgb(185, 185, 185);
 }
