@@ -15,13 +15,36 @@
 
     <h1>Digite uma tarefa</h1>
     <div>
-        <form>
-            <label for="">Digite o nome da tarefa</label>
-            <input type="text">
-            <label for=""></label>
-            <input type="text">
+        <form id="form">
+            <label for="nome">Digite o nome da tarefa</label> <br>
+            <input type="text" id="nome" name="nome"> 
+            
+            <br>
+
+            <label for="tags">Digite as tags</label> <br>
+            <input type="text" id="tags" name="tags"> 
+            <br>
+
+            <label for="option1">Qual o nivel de importancia dessa tarefa?</label> <br>
+            <input type="radio" id="option1" name="option"> 
+            <input type="radio" id="option2" name="option">
+            <input type="radio" id="option3" name="option" checked>
+            <input type="radio" id="option4" name="option">
+            <input type="radio" id="option5" name="option">
+
+            <br>
+
+            <label for="prazo">Qual o prazo de conclusão dessa tarefa?</label> <br>
+            <input type="datetime-local" id="prazo" name="prazo"> 
+
+            <br>
+
+            <button type="submit">Adicionar tarefa</button>
+
         </form>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

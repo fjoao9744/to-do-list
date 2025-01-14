@@ -47,3 +47,12 @@ header * {
 header a:hover {
     color: rgb(185, 185, 185);
 }
+
+form {
+    padding: 50px;
+    align-items: center;
+}
+form input #option1 {
+    color: green;
+    background-color: green;
+}
