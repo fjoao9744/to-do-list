@@ -14,15 +14,15 @@
     </header>
 
     <h1>Digite uma tarefa</h1>
-    <div>
+    <div id="container">
         <form id="form">
             <label for="nome">Digite o nome da tarefa</label> <br>
-            <input type="text" id="nome" name="nome"> 
+            <input type="text" id="nome" name="nome" required> 
             
             <br>
 
-            <label for="tags">Digite as tags</label> <br>
-            <input type="text" id="tags" name="tags"> 
+            <label for="descricao">Digite oque é para fazer nessa tarefa</label> <br>
+            <input type="text" id="descricao" name="descricao"> 
             <br>
 
             <label for="option1">Qual o nivel de importancia dessa tarefa?</label> <br>
@@ -35,7 +35,7 @@
             <br>
 
             <label for="prazo">Qual o prazo de conclusão dessa tarefa?</label> <br>
-            <input type="datetime-local" id="prazo" name="prazo"> 
+            <input type="datetime-local" id="prazo" name="prazo" required> 
 
             <br>
 

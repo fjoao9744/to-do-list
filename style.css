@@ -16,7 +16,8 @@ body {
     justify-items: center;
 }
 
-div {
+#container {
+    overflow-y: auto;
     background: linear-gradient(to bottom, #5C28A1, #8B892E);
     width: 400px;
     height: 500px;
@@ -55,4 +56,20 @@ form {
 form input #option1 {
     color: green;
     background-color: green;
+}
+
+.task {
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 3px;
+    margin: 10px;
+}
+
+.task button{
+    padding: 0px;
+}
+
+.task h1 {
+    padding: 0px;
+    text-align: center;
 }
