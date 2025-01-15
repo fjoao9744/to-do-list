@@ -53,23 +53,33 @@ form {
     padding: 50px;
     align-items: center;
 }
-form input #option1 {
-    color: green;
-    background-color: green;
+form * {
+    margin-bottom: 15px;
+}
+
+form button {
+    margin: 10px;
+    background: radial-gradient(circle at center, #5C28A1, #8B892E);
+    cursor: pointer;
 }
 
 .task {
+    background: linear-gradient(to bottom, #5C28A1, #8B892E);
     border: 2px solid black;
     padding: 10px;
     padding-top: 3px;
     margin: 10px;
+    
 }
 
 .task button{
-    padding: 0px;
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6000E0, #00BEE0);
 }
 
 .task h1 {
+    margin: 0%;
     padding: 0px;
     text-align: center;
 }

@@ -6,17 +6,21 @@ function CreateTask(item) {
 
     tag.classList.add("task");
 
+    // Criação dos items da div
+
     let task_name = document.createElement("h1");
     let task_descricao = document.createElement("span");
     let task_priority = document.createElement("p");
     let task_prazo = document.createElement("p");
     let botao = document.createElement("button");
 
+    // confugirações dos items
+    
     task_name.textContent = item["nome"];
-    task_descricao.textContent = item["descricao"];
-    task_priority.textContent = item["importancia"];
-    task_prazo.textContent = item["prazo"];
-
+    task_descricao.textContent = `Descrição: ${item["descricao"]}`;
+    task_priority.textContent =  item["importancia"];
+    task_prazo.textContent = `prazo: ${item["prazo"]}`;
+    
     botao.textContent = "deletar";
     botao.addEventListener("click", () => {
         document.getElementById(item.id).remove(); 
@@ -25,8 +29,8 @@ function CreateTask(item) {
 
     tag.appendChild(task_name);
     tag.appendChild(task_descricao);
-    tag.appendChild(task_priority);
     tag.appendChild(task_prazo);
+    tag.appendChild(task_priority);
     tag.appendChild(botao);
 
     div.appendChild(tag);
